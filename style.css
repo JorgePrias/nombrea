@@ -1,0 +1,66 @@
+body{
+  background-color: #90AFC5;
+   color: #2A3132;
+  display:flex;
+  flex-direction: column;
+  max-height: 100%;
+  max-width: 1000px;
+  margin:auto;
+  border:solid;
+}
+nav{
+  background-color: #336B87;
+   color: #2A3132;
+  font-size: 20px;
+  margin-top: 0;
+  padding:0;
+}
+nav a{
+   color: #2A3132;
+}
+nav a:hover{
+  color: #763626;
+  background-color:#90AFC5;
+}
+.titulo{
+  font-size:30px;
+}
+.titulo h1{
+  margin-bottom: 0;
+  padding: 0;
+  color: #763626;
+}
+.titulo h3{
+  margin-top: 0;
+  padding: 0;
+  color: #2A3132;
+}
+nav a{
+  margin-right: 10px;
+}
+hr{
+  background-color: #2A3132;
+  color: #2A3132;
+  border:solid;
+}
+.contenido button{
+    background-color: #336B87;
+    color: #2A3132;
+}
+
+img{
+  min-height: 200px;
+  min-width: 200px;
+  max-height: 500px;
+  max-width: 500px;
+  border: solid 10px;
+}
+.contenido{
+    display:flex;
+  flex-direction: column;
+   font-size:20px;
+}
+
+ul{
+  margin:0;
+}
